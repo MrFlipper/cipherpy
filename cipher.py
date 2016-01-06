@@ -1,4 +1,4 @@
-alph = ('abcdefghijklmnopqrstuvwxyz')
+alph = 'abcdefghijklmnopqrstuvwxyz'
 keyword = raw_input('please enter the keyword: ')
 
 
