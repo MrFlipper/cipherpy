@@ -1,16 +1,13 @@
-from collections import OrderedDict
-
 alph = 'abcdefghijklmnopqrstuvwxyz'
 keyword = raw_input('please enter the keyword: ')
 
 
 cipherbet = keyword+alph
-
-for i in alph:
-
-
-
-##CipherAlphabet = "".join(OrderedDict.fromkeys(sorted(cipherbet)))
+CipherAlphabet = ""
+for i in keyword:
+     for j in alph:
+          if keyword[i] != alph[j]:
+                CipherAlphabet[i] = keyword[i]
 
 
 
