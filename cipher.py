@@ -1,4 +1,4 @@
-alph = 'abcdefghijklmnopqrstuvwxyz'
+alph = ('abcdefghijklmnopqrstuvwxyz')
 keyword = raw_input('please enter the keyword: ')
 
 
@@ -12,5 +12,5 @@ for i in keyword:
 
 
 
-print cipherbet
-print CipherAlphabet
+print (cipherbet)
+print (CipherAlphabet)
